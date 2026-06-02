@@ -9,7 +9,7 @@ A structured, level-based collection of C programming exercises — built from t
 | Level | Topic | Problems | Concepts Covered |
 |-------|-------|----------|-----------------|
 | [Level 01](./Level_01/README.md) | Arithmetic & Digit Manipulation | 25 | Operators, modulo arithmetic, digit extraction, branchless logic |
-| Level 02 | Boolean & Comparison Logic | 14 | Relational operators, boolean expressions *(coming soon)* |
+| [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | 10 / 14 | Relational operators, boolean expressions *(in progress)* |
 | Level 03 | Conditionals | 14 | `if`, `else`, control flow *(coming soon)* |
 | Level 04 | Loops | 14 | `goto`-based loops, iteration patterns *(coming soon)* |
 
@@ -49,6 +49,6 @@ c-programming-journey/
 ## Progress
 
 - [x] Level 01 — Arithmetic & Digit Manipulation
-- [ ] Level 02 — Boolean & Comparison Logic
+- [ ] Level 02 — Boolean & Comparison Logic *(10 / 14 uploaded)*
 - [ ] Level 03 — Conditionals
 - [ ] Level 04 — Loops
