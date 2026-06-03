@@ -6,12 +6,11 @@ A structured, level-based collection of C programming exercises — built from t
 
 ## Learning Path
 
-| Level | Topic | Problems | Concepts Covered |
-|-------|-------|----------|-----------------|
-| [Level 01](./Level_01/README.md) | Arithmetic & Digit Manipulation | 25 | Operators, modulo arithmetic, digit extraction, branchless logic |
-| [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | 10 / 14 | Relational operators, boolean expressions *(in progress)* |
-| Level 03 | Conditionals | 14 | `if`, `else`, control flow *(coming soon)* |
-| Level 04 | Loops | 14 | `goto`-based loops, iteration patterns *(coming soon)* |
+| Level | Topic | Concepts Covered |
+|-------|-------|-----------------|
+| [Level 01](./Level_01/README.md) | Arithmetic & Digit Manipulation | Operators, modulo arithmetic, digit extraction, branchless logic |
+| [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | Relational operators, boolean expressions |
+| [Level 03](./Level_03/) | Conditionals | `if`, `else`, string output, control flow |
 
 ---
 
@@ -40,8 +39,7 @@ gcc 01_Add_2_to_Given_Number.c -o add
 c-programming-journey/
 ├── Level_01/        # Arithmetic & Digit Manipulation
 ├── Level_02/        # Boolean & Comparison Logic
-├── Level_03/        # Conditionals
-└── Level_04/        # Loops
+└── Level_03/        # Conditionals
 ```
 
 ---
@@ -49,6 +47,5 @@ c-programming-journey/
 ## Progress
 
 - [x] Level 01 — Arithmetic & Digit Manipulation
-- [ ] Level 02 — Boolean & Comparison Logic *(10 / 14 uploaded)*
+- [x] Level 02 — Boolean & Comparison Logic
 - [ ] Level 03 — Conditionals
-- [ ] Level 04 — Loops
