@@ -24,18 +24,25 @@ By the end of this level, you will be comfortable with:
 
 ---
 
-### Group 2 — Comparing Digits of a Number
+### Group 2 — Comparing Digits of a Two-Digit Number
 
-| # | Problem | Key Technique |
-|---|---------|---------------|
-| [07](./07_Print_1_if_Tens_and_Ones_Digits_are_Identical.c) | Print 1 if tens and ones digits are identical | `(x/10) == (x%10)` |
-| [08](./08_Print_0_if_Tens_and_Ones_Digits_are_Identical.c) | Print 0 if tens and ones digits are identical | `(x/10) != (x%10)` |
-| [09](./09_Print_1_if_Ones_Digit_Less_Than_Tens_Digit.c) | Print 1 if ones digit is less than tens digit | `(x%10) < (x/10)` |
-| [10](./10_Print_1_if_Ones_Digit_Greater_Than_Tens_Digit.c) | Print 1 if ones digit is greater than tens digit | `(x%10) > (x/10)` |
+| # | Problem | Operator | Key Technique |
+|---|---------|----------|---------------|
+| [07](./07_Print_1_if_Tens_and_Ones_Digits_are_Identical.c) | Print 1 if tens and ones digits are identical | `==` | `(x/10) == (x%10)` |
+| [08](./08_Print_0_if_Tens_and_Ones_Digits_are_Identical.c) | Print 0 if tens and ones digits are identical | `!=` | `(x/10) != (x%10)` |
+| [09](./09_Print_1_if_Ones_Digit_Less_Than_Tens_Digit.c) | Print 1 if ones digit is less than tens digit | `<` | `(x%10) < (x/10)` |
+| [10](./10_Print_1_if_Ones_Digit_Greater_Than_Tens_Digit.c) | Print 1 if ones digit is greater than tens digit | `>` | `(x%10) > (x/10)` |
+| [11](./11_Print_1_if_Ones_Digit_Less_Than_or_Equal_to_Tens_Digit.c) | Print 1 if ones digit is less than or equal to tens digit | `<=` | `(x%10) <= (x/10)` |
+| [12](./12_Print_1_if_Ones_Digit_Greater_Than_or_Equal_to_Tens_Digit.c) | Print 1 if ones digit is greater than or equal to tens digit | `>=` | `(x%10) >= (x/10)` |
 
 ---
 
-> **More problems coming soon** — 11 to 14 cover `<=`, `>=` on digits and four-digit number comparisons.
+### Group 3 — Comparing Digits of a Four-Digit Number
+
+| # | Problem | Key Technique |
+|---|---------|---------------|
+| [13](./13_Print_1_if_Ones_and_Tens_are_Same_in_Four_Digit_Number.c) | Print 1 if ones and tens digits are the same | `(x%10) == ((x/10)%10)` |
+| [14](./14_Print_1_if_First_Two_and_Last_Two_Digits_are_Same.c) | Print 1 if first two and last two digits are the same | `(x/100) == (x%100)` |
 
 ---
 
@@ -43,10 +50,10 @@ By the end of this level, you will be comfortable with:
 
 | Concept | Problems |
 |---------|----------|
-| Equality & inequality (`==`, `!=`) | 01 – 02, 07 – 08 |
+| Equality & inequality (`==`, `!=`) | 01 – 02, 07 – 08, 13 – 14 |
 | Less than / greater than (`<`, `>`) | 03 – 04, 09 – 10 |
-| Less/greater than or equal (`<=`, `>=`) | 05 – 06 |
-| Digit extraction before comparison | 07 – 10 |
+| Less/greater than or equal (`<=`, `>=`) | 05 – 06, 11 – 12 |
+| Digit extraction before comparison | 07 – 14 |
 
 ---
 
