@@ -10,7 +10,7 @@ A structured, level-based collection of C programming exercises — built from t
 |-------|-------|-----------------|
 | [Level 01](./Level_01/README.md) | Arithmetic & Digit Manipulation | Operators, modulo arithmetic, digit extraction, branchless logic |
 | [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | Relational operators, boolean expressions |
-| [Level 03](./Level_03/) | Conditionals | `if`, `else`, string output, control flow |
+| [Level 03](./Level_03/README.md) | Conditionals | `if`, `else`, string output, control flow |
 
 ---
 
@@ -39,7 +39,7 @@ gcc 01_Add_2_to_Given_Number.c -o add
 c-programming-journey/
 ├── Level_01/        # Arithmetic & Digit Manipulation
 ├── Level_02/        # Boolean & Comparison Logic
-└── Level_03/        # Conditionals
+└── Level_03/        # Conditionals — if/else
 ```
 
 ---
@@ -48,4 +48,4 @@ c-programming-journey/
 
 - [x] Level 01 — Arithmetic & Digit Manipulation
 - [x] Level 02 — Boolean & Comparison Logic
-- [ ] Level 03 — Conditionals
+- [x] Level 03 — Conditionals

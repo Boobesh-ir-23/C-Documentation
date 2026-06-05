@@ -28,7 +28,14 @@ By the end of this level, you will be comfortable with:
 
 | # | Problem | Condition | Key Technique |
 |---|---------|-----------|---------------|
-| [07](./07_Print_Success_if_Ones_and_Tens_Digits_are_Same.c) | Print Success if ones and tens digits are the same | `x/10 == x%10` | Extract digits, compare with `if` |
+| [07](./07_Print_Success_if_Ones_and_Tens_Digits_are_Same.c) | Print Success if ones and tens digits are the same | `x%10 == x/10` | Extract digits, compare with `if` |
+| [08](./08_Print_Failure_if_Ones_and_Tens_Digits_are_Same.c) | Print Failure if ones and tens digits are the same | `x%10 != x/10` | Inverted condition from 07 |
+| [09](./09_Print_Success_if_Ones_Digit_Less_Than_Tens_Digit.c) | Print Success if ones digit is less than tens digit | `x%10 < x/10` | Digit comparison |
+| [10](./10_Print_Success_if_Ones_Digit_Greater_Than_Tens_Digit.c) | Print Success if ones digit is greater than tens digit | `x%10 > x/10` | Digit comparison |
+| [11](./11_Print_Success_if_Ones_Digit_Less_Than_or_Equal_to_Tens_Digit.c) | Print Success if ones digit is less than or equal to tens digit | `x%10 <= x/10` | Digit comparison |
+| [12](./12_Print_Success_if_Ones_Digit_Greater_Than_or_Equal_to_Tens_Digit.c) | Print Success if ones digit is greater than or equal to tens digit | `x%10 >= x/10` | Digit comparison |
+| [13](./13_Print_Success_if_Ones_and_Tens_are_Same_in_Four_Digit_Number.c) | Print Success if ones and tens digits are same in a four-digit number | `x%10 == (x/10)%10` | Tens digit extraction from multi-digit number |
+| [14](./14_Print_Success_if_First_Two_and_Last_Two_Digits_are_Equal.c) | Print Success if first two and last two digits are equal | `x/100 == x%100` | Split four-digit number into halves |
 
 ---
 
@@ -36,9 +43,11 @@ By the end of this level, you will be comfortable with:
 
 | Concept | Problems |
 |---------|----------|
-| `if`/`else` basic structure | 01 – 07 |
-| All relational operators (`==`, `<`, `>`, `<=`, `>=`) | 01 – 06 |
-| Digit extraction before conditional check | 07 |
+| `if`/`else` basic structure | 01 – 14 |
+| All relational operators (`==`, `!=`, `<`, `>`, `<=`, `>=`) | 01 – 12 |
+| Digit extraction before conditional check | 07 – 14 |
+| Inverted conditions (same logic, flipped output) | 07 – 08 |
+| Multi-digit number decomposition | 13 – 14 |
 
 ---
 
