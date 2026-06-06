@@ -16,3 +16,6 @@ a.out
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local session context (not for GitHub)
+CONTEXT.md
