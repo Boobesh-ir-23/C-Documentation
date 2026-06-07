@@ -51,4 +51,4 @@ c-programming-journey/
 - [x] Level 01 — Arithmetic & Digit Manipulation
 - [x] Level 02 — Boolean & Comparison Logic
 - [x] Level 03 — Conditionals
-- [ ] Level 04 — Loops
+- [x] Level 04 — Loops

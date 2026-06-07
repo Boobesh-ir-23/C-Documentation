@@ -41,16 +41,43 @@ By the end of this level, you will be comfortable with:
 
 ---
 
+### Group 4 — Filtered Sums Inside a Loop
+
+| # | Problem | Condition | Key Technique |
+|---|---------|-----------|---------------|
+| [09](./09_Sumof_twodigit_even_sumofdigits_6.c) | Sum two-digit even numbers whose digit sum is 6 | `(x/10)+(x%10) == 6` | Accumulator + filter inside loop |
+| [10](./10_Sumof_twodigit_odd_ten'sdigit_7.c) | Sum two-digit odd numbers whose tens digit is 7 | `x/10 == 7` | Tens-digit filter, step by 2 |
+
+---
+
+### Group 5 — User Input and Digit Manipulation
+
+| # | Problem | Pattern | Key Technique |
+|---|---------|---------|---------------|
+| [11](./11_Print_total_no_ofdigits.c) | Count digits in a user-entered number | Digit strip loop | `x = x/10`, counter increment |
+| [12](./12_Print_sumof_digits.c) | Sum digits of a user-entered number | Digit strip loop | `sum = sum + (x%10)` |
+| [13](./13_Reverse_the_number.c) | Reverse a user-entered number | Build reversed value | `sum = (sum*10) + (x%10)` |
+| [14](./14_Interchnage_firstlast.c) | Interchange first and last digits | Power-of-10 scaling | `dig = dig*10`, recombine digits |
+| [15](./15_If_odd_sub1_from_MSB.c) | Subtract 1 from MSB if number is odd | Conditional + digit loop | Isolate MSB, subtract `z` |
+| [16](./16_Prime_or_not.c) | Check if a number is prime | Trial division loop | Test divisors from 2 upward |
+
+---
+
 ## Concepts at a Glance
 
 | Concept | Problems |
 |---------|----------|
-| `goto` loop structure | 01 – 08 |
+| `goto` loop structure | 01 – 16 |
 | Ascending counter (`x++`) | 01, 03, 05, 06 |
 | Descending counter (`x--`) | 02, 04 |
-| Running total accumulator | 03, 04 |
-| `if` condition inside a loop | 05 – 08 |
-| Digit sum extraction `(x/10)+(x%10)` | 07, 08 |
+| Running total accumulator | 03, 04, 09, 10 |
+| `if` condition inside a loop | 05 – 10 |
+| Digit sum extraction `(x/10)+(x%10)` | 07 – 09 |
+| User input with `scanf` | 11 – 16 |
+| Digit stripping loop (`x = x/10`) | 11, 12, 13 |
+| Reverse number construction | 13 |
+| First/last digit interchange | 14 |
+| Prime check via trial division | 16 |
 
 ---
 
@@ -62,7 +89,3 @@ out.exe
 ```
 
 Replace the filename with any `.c` file in this folder.
-
----
-
-> Problems 09 – 16 (accumulating sums inside loops, digit operations, and prime checks) are in progress.
