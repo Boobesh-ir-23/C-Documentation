@@ -12,6 +12,7 @@ A structured, level-based collection of C programming exercises — built from t
 | [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | Relational operators, boolean expressions |
 | [Level 03](./Level_03/README.md) | Conditionals | `if`, `else`, string output, control flow |
 | [Level 04](./Level_04/README.md) | Loops | `goto`-based iteration, counters, accumulators, filtered loops |
+| [Level 05](./Level_05/README.md) | For Loops | `for` loop syntax, step control, accumulators, digit processing |
 
 ---
 
@@ -41,7 +42,8 @@ c-programming-journey/
 ├── Level_01/        # Arithmetic & Digit Manipulation
 ├── Level_02/        # Boolean & Comparison Logic
 ├── Level_03/        # Conditionals — if/else
-└── Level_04/        # Loops — goto-based iteration
+├── Level_04/        # Loops — goto-based iteration
+└── Level_05/        # For Loops — structured iteration
 ```
 
 ---
@@ -52,3 +54,4 @@ c-programming-journey/
 - [x] Level 02 — Boolean & Comparison Logic
 - [x] Level 03 — Conditionals
 - [x] Level 04 — Loops
+- [ ] Level 05 — For Loops
