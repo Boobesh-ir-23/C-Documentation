@@ -12,7 +12,7 @@ A structured, level-based collection of C programming exercises — built from t
 | [Level 02](./Level_02/README.md) | Boolean & Comparison Logic | Relational operators, boolean expressions |
 | [Level 03](./Level_03/README.md) | Conditionals | `if`, `else`, string output, control flow |
 | [Level 04](./Level_04/README.md) | Loops | `goto`-based iteration, counters, accumulators, filtered loops |
-| [Level 05](./Level_05/README.md) | For Loops | `for` loop syntax, step control, accumulators, digit processing |
+| [Level 05](./Level_05/README.md) | For Loops | `for` loop syntax, digit manipulation, prime checks, nested loops |
 
 ---
 
